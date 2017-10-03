@@ -1,12 +1,11 @@
-# username
+﻿# username
 
 ## Qui suis-je ?
 
-Je m'appelle...
+Je m'appelle Aurélia
+Je suis passioné par les oignons et les patates
 
-Je suis passioné par...
-
-J'ai des qualités et des défauts : ...
+J'ai des qualités et des défauts : 
 
 ## Mon parcours
 
