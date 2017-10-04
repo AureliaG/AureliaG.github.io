@@ -1,7 +1,4 @@
-﻿---
-permalink: index.html
----
-i username
+﻿i username
 
 ## Qui suis-je ?
 
@@ -25,3 +22,5 @@ Je veux apprendre le langage PHP et développer des compétences en autonomie po
 ## Demain
 
 Je souhaite participer à des projets d'innovations positives, mettre la technologie au service du bien commun.
+
+[me contacter](formBurger.html)

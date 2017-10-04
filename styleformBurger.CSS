@@ -1,0 +1,63 @@
+.pain1{
+	background-color: #d18e4a;
+	height: 100px;
+	width: 60%;
+	background: #e5b05a;
+	border-radius: 100px 100px 20px 20px;
+	border-bottom: solid 10px rgba(0,0,0,.1);
+}
+.fromage {
+	background-color: #d1d14a;
+	height: 15px;
+  	width: 60%;
+  	border-bottom: solid 2px rgba(0,0,0,.1); 
+}
+.tomate {
+	background-color: #d1d14a;
+	height: 25px;
+    width: 50%;
+    background-color: #dd3710;
+    border-bottom: solid 2px rgba(0,0,0,.1);
+    margin-left: 80px;
+}
+.oignon {
+	background-color: #bf7fbf;
+	width: 40%;
+  	border-top: dotted 20px rgba(255,255,255,.2);
+  	margin-left: 150px;
+}
+
+.salade {
+	background-color: #198c19;
+	height: 30px;
+  	width: 50%;
+  	border-radius: 0 0 100px 100px;
+  	border-bottom: solid 5px #2d9961;
+  	margin-left: 80px;
+}
+.steak {
+	background-color: #631919;
+	height: 35px;
+    width: 60%;
+  	border-radius: 15px;
+  	border-bottom: solid 2px rgba(0,0,0,.1);
+}
+.pain2 {
+	background-color: #d18e4a;
+	height: 100px;
+	width: 60%;
+	background: #e5b05a;
+	border-radius: 20px 20px 100px 100px;
+	border-top: solid 10px rgba(0,0,0,.1);
+}
+
+form {
+	display: grid;
+	margin: auto;
+	max-width: 50%;
+}
+
+input {
+	border-radius: 15px;
+	border-bottom: solid 2px black;
+}
