@@ -1,4 +1,7 @@
-﻿i username
+﻿---
+permalink: index.html
+---
+i username
 
 ## Qui suis-je ?
 
