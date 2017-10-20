@@ -3,42 +3,88 @@
 
   <head>
     <title>Burger</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="styleformBurger.css">
   </head>
 
   <body>
-    <section class="pain1 burger">
-    	<form action="https://formspree.io/garnier.aurelia.emeline@gmail.com"
-     	 method="POST">
-     	 <input type="text" name="tittle">
-   		<input type="text" name="message">
-   		<input type="submit" value="Send">
-</form>
-    </section>
+  <!-- PARTIE 1 Présentation-->
+	  <div id="jesuisfont">
+	  	<div id="jesuis">
+			<h2 class="presentation"> Qui suis-je ? </h2>
 
-    <section class="tomate burger">
-	</section>
+			<p class="presentation"> Je m'appelle Aurélia Je suis curieuse de tout, des technologies, des gens, de la culture en général J'ai des qualités et des défauts, je suis sociale et dynamique mais tête en l'air et un peu maladroite. </p>
 
-    <section class="oignon burger">
-    </section>
+			<h2 class="presentation"> Mon parcours </h2>
 
-    <section class="fromage burger">
-    </section>
+			<p class="presentation"> J'ai fait des études de photographie, j'ai pas mal voyager (j'ai vécu un an à Londres, 6 mois en Australie, j'aime les moyens de voyager alternative comme le WWOOFFING ou le couchsurfing) J'ai travaillé principalement dans la restauration (mais j'ai plusieurs experiences diverses et variées comme peintre en batiment ou baby sitter) </p>
 
-    <section class="steak burger">
-    </section>
+			<h2 class="presentation"> Aujourd'hui </h2>
 
-    <section class="fromage burger">
-    </section>
+			<p class="presentation"> Je suis actuellement en formation chez Simplon car j'aimeras devenir developpeuse web full stack
 
-    <section class="oignon burger">
-    </section>
+			Je veux apprendre le langage PHP et développer des compétences en autonomie pour apprendre toujours plus.</p>
 
-    <section class="salade burger">
-	</section>
+			<h2 class="presentation">Demain </h2>
 
-    <section class="pain2 burger">
-    </section>  
+			<p class="presentation">Je souhaite participer à des projets d'innovations positives, mettre la technologie au service du bien commu </p>
+		</div>
+	  </div>	
 
+	<!-- PARTIE 2 Présentation-->   
+  	<div id="burgerfont">
+  	  <h2 id="contacter">Vous voulez me contacter?</h2>
+  	  <div id="burger">	
+  		<form action="https://formspree.io/garnier.aurelia.emeline@gmail.com"
+	 	 method="POST"> <!--Envoie le formulare sous forme de mail-->
+
+	    <section class="pain1 burger">	
+	    	<label class="form" id="nom">Nom</label>		
+			<input class="form radius" type="text" name="nom" id="nom"> 
+	    	<label class="form" id="email" type="text" size="50">Mail</label>		
+			<input class="form radius" type="email" name="email" id="email">
+		</section>
+
+	    <section class="tomate burger">
+		</section>
+
+	    <section class="oignon burger">
+	    </section>
+
+	    <section class="fromage burger">
+	    </section>
+
+	    <section class="steak burger">
+	    </section>
+
+	    <section class="fromage burger">
+	    </section>
+
+	    <section class="oignon burger">
+	    </section>
+
+	    <section class="salade burger">
+		</section>
+
+	    <section class="pain2 burger">
+	    	<label class="form" id="message">Message</label> 
+		    <textarea class="form radius" name="message" id="message" rows="2" cols="70" placeholder="Votre message"></textarea> 
+			<input  class="form" type="submit" value="Send">
+	    </section>  
+
+   		</form>
+   	  </div>
+   	</div>  
+
+  <!-- A FINIR 
+  	<footer>   
+        <div class="row textelogo">
+                    <p class="contacter">Suivez-moi!</p>
+                    <img class="img-fluid" alt="Responsive image" src="https://cdn.pixabay.com/photo/2015/05/22/11/49/facebook-778706_640.png">
+                    <img class="img-fluid" alt="Responsive image" src="http://www.thechardonnayrun.com/wp-content/uploads/Instagram-Color.png">
+                    <img class="img-fluid" alt="Responsive image" src="http://static.adweek.com/adweek.com-prod/wp-content/uploads/sites/8/2015/03/twitter-women.jpg"> 
+        </div>   
+	</footer>
+	-->
   </body>
 </html>

@@ -1,3 +1,24 @@
+/* PRESENTATION */
+
+.presentation {
+	font-family: 'Indie Flower', cursive;	
+	text-align: center;
+	
+}
+
+#jesuis {
+	padding-top: 50px;	
+	padding-bottom: 100px;
+} 
+
+/* FONT PRESENTATION */
+
+#jesuisfont {
+	padding-bottom: 20px;
+	background-color: #d0ff8f;
+}
+
+/* BURGER */
 .pain1{
 	background-color: #d18e4a;
 	height: 100px;
@@ -11,6 +32,7 @@
 	height: 15px;
   	width: 60%;
   	border-bottom: solid 2px rgba(0,0,0,.1); 
+  	justify-content:center;
 }
 .tomate {
 	background-color: #d1d14a;
@@ -41,6 +63,7 @@
     width: 60%;
   	border-radius: 15px;
   	border-bottom: solid 2px rgba(0,0,0,.1);
+  
 }
 .pain2 {
 	background-color: #d18e4a;
@@ -49,15 +72,52 @@
 	background: #e5b05a;
 	border-radius: 20px 20px 100px 100px;
 	border-top: solid 10px rgba(0,0,0,.1);
+	
 }
 
-form {
+.form {
 	display: grid;
 	margin: auto;
 	max-width: 50%;
+	justify-content:center;
+	font-family: 'Indie Flower', cursive;
 }
-
-input {
+.radius {
 	border-radius: 15px;
 	border-bottom: solid 2px black;
+
 }
+/* FONT BURGER */
+
+#burger {
+	justify-content:center;
+	margin-left: 570px;
+}
+#burgerfont {
+	background-color: #fff68f;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+
+/* BURGER TITRE*/
+#contacter {
+	font-family: 'Indie Flower', cursive;
+	font-size: 3.5em;
+	margin-left: 650px;
+}
+
+
+/*.textelogo {
+justify-content: flex-end;	
+}
+
+.img-fluid {
+margin:1em;
+
+.img-fluid {
+max-width: 20%;
+ height: auto
+}
+}
+
